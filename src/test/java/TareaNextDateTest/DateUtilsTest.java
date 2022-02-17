@@ -24,6 +24,7 @@ public class DateUtilsTest {
             
             "15,febrer,2021,mes incorrecto",
             "20,marzor,2021,mes incorrecto",
+            "15,mayoabril,2021,mes incorrecto",
             
             "15,febrero,-5,gestion incorrecto",
             "20,marzo,-10,gestion incorrecto",
@@ -32,6 +33,31 @@ public class DateUtilsTest {
             "44,afebrer,2000,ingresar nuevos datos",
             "40,febrero,-5,ingresar nuevos datos",
             "20,febreri,-5,ingresar nuevos datos",
+            
+            "30,enero,2020,31 enero 2020",
+            "31,enero,2020,1 febrero 2020",
+            "27,febrero,2021,28 febrero 2021",
+            "29,febrero,2020,1 marzo 2020",
+            "30,marzo,2020,31 marzo 2020",
+            "31,marzo,2020,1 abril 2020",
+            "29,abril,2020,30 abril 2020",
+            "30,abril,2020,1 mayo 2020",
+            "30,mayo,2020,31 mayo 2020",
+            "31,mayo,2020,1 junio 2020",
+            "29,junio,2020,30 junio 2020",
+            "30,junio,2020,1 julio 2020",
+            "30,julio,2020,31 julio 2020",
+            "31,julio,2020,1 agosto 2020",
+            "30,agosto,2020,31 agosto 2020",
+            "31,agosto,2020,1 septiembre 2020",
+            "29,septiembre,2020,30 septiembre 2020",
+            "30,septiembre,2020,1 octubre 2020",
+            "30,octubre,2020,31 octubre 2020",
+            "31,octubre,2020,1 noviembre 2020",
+            "29,noviembre,2020,30 noviembre 2020",
+            "30,noviembre,2020,1 diciembre 2020",
+            "30,diciembre,2020,31 diciembre 2020",
+            "31,diciembre,2024,1 enero 2025",
     })
 
 

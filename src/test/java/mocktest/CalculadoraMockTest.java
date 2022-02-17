@@ -25,5 +25,9 @@ public class CalculadoraMockTest {
         Assertions.assertEquals(expectedResult,actualResult,"Error el factorial el incorrecto");
         
         // verificacion mocks
+        Mockito.verify(servicioMock).multi(1,1);
+        Mockito.verify(servicioMock).multi(1,2);
+        Mockito.verify(servicioMock).multi(2,3);
+        Mockito.verify(servicioMock).multi(6,4);
     }
 }
